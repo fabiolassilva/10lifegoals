@@ -1,0 +1,151 @@
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: #104E8B;
+}
+
+a:hover {
+  color:#fed136;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+#mainNav {
+  background-color:  #104E8B;
+}
+#divPesquisa{
+     width: 320px;
+     margin-left: 20px;
+     height:35px;
+}
+
+#txtPesquisa{
+     padding-left:5px;
+     font-size:15px;    
+     height:32px;
+     width:250px;
+    margin: 0;
+}
+
+#btnPesquisa{
+    height: 35px;
+}
+
+#iconPesquisa{
+     width: 16px;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 20px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #4F94CD;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+/*    margin-left: -10%;*/
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 100%;
+  font-weight: 500;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+#icon{
+    width: 50px;
+     padding: 5px;
+     margin-left: 0px;
+     margin-top: 0px;
+          
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color:#104E8B ;
+  }
+  #mainNav .navbar-brand {
+    font-size: 35px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #104E8B;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+
+}
+
+#container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+#corpo{
+    margin-top: 10%;
+    height: auto;
+    max-width: 80%;
+}
+
+.footer {
+    
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 10%;
+  line-height: 60px; /* Vertically center the text there */
+  padding: 0.8% 0;
+  text-align: center;
+    width: 100%;
+}
+
+footer span {
+  font-size: 70%;
+  line-height: 10%;
+    color: black;
+  text-transform: none;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+footer a{
+    color: dimgrey;
+}
